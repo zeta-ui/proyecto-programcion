@@ -8,7 +8,7 @@
 </head>
 <body>
 		       <div class="login-container">
-	       <form class="login-form" onsubmit="event.preventDefault(); var tipo = document.getElementById('tipoRegistro').value; if(tipo === 'publicar') window.location.href='../../apps/PANTALLA_PUBLICAR.html'; else if(tipo === 'contratar') window.location.href='../../apps/PANTALLA_CONTRATAR.html'; else window.location.href='../index.html';">
+		<form class="login-form" action="registro_usuario.php" method="POST">
 				<h2>Registro</h2>
 				<div class="input-group">
 					<label for="nombre">Nombre</label>
